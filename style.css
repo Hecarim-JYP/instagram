@@ -2,3 +2,31 @@ body{
     font-size: 30px;
     font-weight: bolder;
 }
+
+.thumbNail_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.thumbNail{
+    width: 100%;
+}
+
+.link{
+    margin: 0px 0px 20px 0px;
+}
+
+#profile{
+    margin: 0px 0px 20px 0px;
+}
+
+#statBar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: solid 1px;
+    margin: 0px 0px 20px 0px;
+}
+
+.stat{
+    text-align: center;
+}
